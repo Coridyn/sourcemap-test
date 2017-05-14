@@ -1,0 +1,9 @@
+./src/commonjs -> OK
+ - can set breakpoints and step in normally.
+ - Everything works as expected.
+
+./src/es-modules -> 
+ - entry.js: breakpoint and stepping into `ViewEmitter.generateForecastData({});` has extra lines before actually getting into `generateForecastData()` function.
+   - Steps into bundle file.
+ - `debugger` statement hit and can step from there
+   - Extra statements run when trying to step into `TestEmitter.showSectionRequest($scope, 'test');` before actually stepping into function (similar to entry.js)

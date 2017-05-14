@@ -1,0 +1,11 @@
+{
+  "name": "ts-webpack",
+  "description": "Bundle TS using Webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+  	"clean": "rm -rf build/*",
+  	"build": "npm run clean && webpack"
+  },
+  "devDependencies": {}
+}

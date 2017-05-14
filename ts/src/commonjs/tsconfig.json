@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outFile": "../../build/es-modules.bundle.js",
+        "rootDir": ".",
+        "target": "es5"
+    }
+}
